@@ -14,7 +14,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setinverse = setinverse,
        getinverse = getinverse)
 }
-
 ## This function checks if the inverse of given matrix is already available in the cache
 
 cacheSolve <- function(x, ...) {
